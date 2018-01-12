@@ -104,7 +104,20 @@ Dark green: #28b485
         opacity: 1;
         transform: translate(0);
     }
+}
 
+@keyframes moveToUp {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    80% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
 }
 
 .btn:link, .btn:visited {
@@ -115,6 +128,8 @@ Dark green: #28b485
     margin-top: 35px;
     border-radius: 100px;
     transition: all .2s ease-out;
+    position: relative;
+    z-index: 99;
 }
 
 .btn:hover {
@@ -130,4 +145,32 @@ Dark green: #28b485
 .btn-white {
     background-color: white;
     color: #777777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.25s ease;
+}
+
+.btn-white::after {
+    background: white;
+    color: #777;
+}
+
+.btn:hover::after {
+    transform: scale(1.4, 1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveToUp .5s ease-out .5s;
+    animation-fill-mode: backwards;
 }
