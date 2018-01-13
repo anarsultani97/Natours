@@ -40,17 +40,17 @@ html {
         clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
-.logo {
+.header__logo {
     height: 3rem;
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 42%;
     left: 50%;
@@ -64,7 +64,7 @@ html {
     /*backface code is for stop shakingafteranimation   */
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 3.9rem;
     font-weight: 400;
@@ -72,7 +72,7 @@ html {
     animation: moveToLeft 0.5s ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     text-indent: 1rem;
     font-size: 1.3rem;
@@ -144,10 +144,10 @@ html {
 
 .btn:active {
     transform: translateY(-.1rem);
-    box-shadow: 0 5rem 1rem rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }
 
-.btn-white {
+.btn--white {
     background-color: white;
     color: #777777;
 }
@@ -165,7 +165,7 @@ html {
     transition: all 0.25s ease;
 }
 
-.btn-white::after {
+.btn--white::after {
     background: white;
     color: #777;
 }
@@ -175,7 +175,7 @@ html {
     opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveToUp .5s ease-out .5s;
     animation-fill-mode: backwards;
 }
