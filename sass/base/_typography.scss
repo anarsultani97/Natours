@@ -1,0 +1,35 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: #777777;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 3rem;
+}
+
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  /*backface code is for stop shakingafteranimation   */
+
+  &--main {
+    display: block;
+    text-indent: 1rem;
+    font-size: 3.9rem;
+    font-weight: 400;
+    letter-spacing: 3.4rem;
+    animation: moveToLeft 1s ease-out;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1.5rem;
+    animation: moveToRight 1s ease-out;
+
+  }
+}
+
+
+
