@@ -1,4 +1,4 @@
 
-##Ignoring npm node modules
+##Ignoring npm node modules###
 
-node_modules/*
+ */node_modules/*
