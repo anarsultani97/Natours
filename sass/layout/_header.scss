@@ -4,8 +4,7 @@
   position: relative;
   background: linear-gradient(to top right,
           rgba($color-primary-light, 0.8),
-          rgba($color-primary-dark, 0.8)),
-  url("../../img/hero.jpg") no-repeat top right;
+          rgba($color-primary-dark, 0.8)), url("../img/hero.jpg") no-repeat top right;
   background-size: cover;
   background-position-y: -5px;
   /*  clip-path: url(#clip-shape); Svg method */
