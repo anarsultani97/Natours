@@ -30,8 +30,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="355">
-                  <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+                <state relative-caret-position="475">
+                  <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
                   <folding>
                     <element signature="e#2586#2592#0" expanded="true" />
                   </folding>
@@ -220,7 +220,7 @@
       <option name="presentableId" value="Default" />
       <updated>1515698650629</updated>
       <workItem from="1515698652175" duration="11000" />
-      <workItem from="1517594530344" duration="7647000" />
+      <workItem from="1517594530344" duration="8291000" />
     </task>
     <task id="LOCAL-00001" summary="Compositions added">
       <created>1517604019001</created>
@@ -229,11 +229,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517604019002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="About section is completed(fully)">
+      <created>1517604056899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517604056899</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7658000" />
+    <option name="totallyTimeSpent" value="8302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -268,7 +275,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Compositions added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compositions added" />
+    <MESSAGE value="About section is completed(fully)" />
+    <option name="LAST_COMMIT_MESSAGE" value="About section is completed(fully)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -364,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+        <state relative-caret-position="475">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <element signature="e#2586#2592#0" expanded="true" />
           </folding>
