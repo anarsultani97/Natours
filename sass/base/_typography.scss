@@ -49,3 +49,16 @@ body {
   }
 }
 
+.heading-tertiary {
+  font-size: $default-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: $default-font-size;
+  font-weight: 500;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}

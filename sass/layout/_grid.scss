@@ -1,15 +1,10 @@
 .row {
   max-width: $grid-width;
-  background: #eee;
   margin: 0 auto;
 
   [class^='col-'] {
-    background: #ff2c3c;
     float: left;
-    height: 2em;
     font-size: 2rem;
-    color: $color-white;
-    text-indent: 10px;
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
     }
