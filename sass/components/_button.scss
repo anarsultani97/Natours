@@ -4,13 +4,14 @@
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 2rem;
     display: inline-block;
     margin-top: 3.5rem;
-    border-radius: 10rem;
+    border-radius: 2.5em;
     transition: all .2s ease-out;
     position: relative;
     z-index: 99;
+    font-size: 1.5rem;
   }
 
   &:hover {
@@ -44,7 +45,13 @@
     z-index: -1;
     transition: all 0.25s ease;
   }
-
+  &--green {
+    background-color: $color-primary-light;
+    color: $color-white;
+    &::after {
+      background-color: $color-primary-light;
+    }
+  }
   &--white {
     background: $color-white;
     color: $color-gray-dark;
