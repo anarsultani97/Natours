@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a658ae06-fc9c-4cc3-90b5-a9a4f52b696c" name="Default" comment="">
+    <list default="true" id="a658ae06-fc9c-4cc3-90b5-a9a4f52b696c" name="Default" comment="Story is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,10 +32,10 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="274" column="25" lean-forward="false" selection-start-line="274" selection-start-column="25" selection-end-line="274" selection-end-column="25" />
+                <state relative-caret-position="188">
+                  <caret line="77" column="85" lean-forward="false" selection-start-line="77" selection-start-column="85" selection-end-line="77" selection-end-column="85" />
                   <folding>
-                    <element signature="e#6831#6837#0" expanded="true" />
+                    <element signature="e#6830#6836#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -127,7 +129,7 @@
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="161">
-                  <caret line="314" column="22" lean-forward="false" selection-start-line="314" selection-start-column="22" selection-end-line="314" selection-end-column="22" />
+                  <caret line="314" column="30" lean-forward="false" selection-start-line="314" selection-start-column="30" selection-end-line="314" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -199,9 +201,9 @@
         <option value="$PROJECT_DIR$/sass/main.scss" />
         <option value="$PROJECT_DIR$/sass/components/story.scss" />
         <option value="$PROJECT_DIR$/sass/pages/_home.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/components/_card.scss" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -367,11 +369,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519694103002</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Story is added">
+      <created>1519694539015</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1519694539015</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49846000" />
+    <option name="totallyTimeSpent" value="49943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -459,9 +468,9 @@
     <MESSAGE value="Icon-set donwloaded." />
     <MESSAGE value="Design of cards is completed." />
     <MESSAGE value="Tours section is completed(25%)" />
-    <MESSAGE value="Story is added" />
     <MESSAGE value="Firebase contents are added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Firebase contents are added" />
+    <MESSAGE value="Story is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Story is added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -498,7 +507,7 @@
         <state relative-caret-position="2314">
           <caret line="89" column="39" lean-forward="true" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
           <folding>
-            <element signature="e#6831#6837#0" expanded="true" />
+            <element signature="e#6830#6836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -620,7 +629,7 @@
         <state relative-caret-position="139">
           <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
           <folding>
-            <element signature="e#6831#6837#0" expanded="true" />
+            <element signature="e#6830#6836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -699,7 +708,7 @@
         <state relative-caret-position="416">
           <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <element signature="e#6831#6837#0" expanded="true" />
+            <element signature="e#6830#6836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -846,17 +855,17 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="314" column="22" lean-forward="false" selection-start-line="314" selection-start-column="22" selection-end-line="314" selection-end-column="22" />
+          <caret line="314" column="30" lean-forward="false" selection-start-line="314" selection-start-column="30" selection-end-line="314" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="274" column="25" lean-forward="false" selection-start-line="274" selection-start-column="25" selection-end-line="274" selection-end-column="25" />
+        <state relative-caret-position="188">
+          <caret line="77" column="85" lean-forward="false" selection-start-line="77" selection-start-column="85" selection-end-line="77" selection-end-column="85" />
           <folding>
-            <element signature="e#6831#6837#0" expanded="true" />
+            <element signature="e#6830#6836#0" expanded="true" />
           </folding>
         </state>
       </provider>
