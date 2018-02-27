@@ -14,17 +14,31 @@
 
     <body>
 
-        <!-- Clipping with Svg Path
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyD2MFo2TSza22bwdiH3KIZmM4_b0DeJ1ng",
+            authDomain: "nature-840b1.firebaseapp.com",
+            databaseURL: "https://nature-840b1.firebaseio.com",
+            projectId: "nature-840b1",
+            storageBucket: "",
+            messagingSenderId: "474600412098"
+        };
+        firebase.initializeApp(config);
+    </script>
 
-            <svg width="0" height="0">
-                 <defs>
-                     <clipPath id="clip-shape" clipPathUnits="objectBoundingBox">
-                         <polygon points="0 0,1 0, 1 0.77, 0 1"/>
-                     </clipPath>
-                 </defs>
-             </svg>
+    <!-- Clipping with Svg Path
 
-             End of Comment -->
+        <svg width="0" height="0">
+             <defs>
+                 <clipPath id="clip-shape" clipPathUnits="objectBoundingBox">
+                     <polygon points="0 0,1 0, 1 0.77, 0 1"/>
+                 </clipPath>
+             </defs>
+         </svg>
+
+         End of Comment -->
 
         <header class="header">
 
