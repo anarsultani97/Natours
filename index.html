@@ -15,18 +15,6 @@
     <body>
 
     <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyD2MFo2TSza22bwdiH3KIZmM4_b0DeJ1ng",
-            authDomain: "nature-840b1.firebaseapp.com",
-            databaseURL: "https://nature-840b1.firebaseio.com",
-            projectId: "nature-840b1",
-            storageBucket: "",
-            messagingSenderId: "474600412098"
-        };
-        firebase.initializeApp(config);
-    </script>
 
     <!-- Clipping with Svg Path
 
@@ -245,6 +233,13 @@
             </section>
 
             <section class="section-stories">
+                <div class="bg-video">
+                    <video class="bg-video__content" autoplay muted loop>
+                        <source src="img/video.mp4" type="video/mp4">
+                        <source src="img/video.webm" type="video/webm">
+                        Your browser is not supported!
+                    </video>
+                </div>
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Exciting tours for adventurous people
@@ -254,6 +249,7 @@
                     <div class="story">
                         <figure class="story__shape">
                             <img src="img/nat-8.jpg" alt="first story" class="story__img">
+                            <figcaption class="story__caption"> Mary Smith</figcaption>
                         </figure>
                         <div class="story__text">
                             <h3 class="heading-tertiary u-margin-bottom-small">
@@ -264,6 +260,25 @@
                                 explicabo iste nostrum quidem! Blanditiis id non ullam voluptate.</p>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="img/nat-9.jpg" alt="first story" class="story__img">
+                            <figcaption class="story__caption"> Anar Sultani</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                I had the best day with my friends
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at debitis, deleniti
+                                dicta, dolorem, eaque explicabo facere harum modi natus nisi quo saepe. Corporis dicta
+                                explicabo iste nostrum quidem! Blanditiis id non ullam voluptate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="u-center-text u-margin-bottom-big">
+                    <a href="" class="btn btn-text">Read all stories &rarr; </a>
                 </div>
             </section>
         </main>
