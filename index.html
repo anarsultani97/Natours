@@ -14,17 +14,19 @@
 
     <body>
 
-        <!-- Clipping with Svg Path
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
 
-            <svg width="0" height="0">
-                 <defs>
-                     <clipPath id="clip-shape" clipPathUnits="objectBoundingBox">
-                         <polygon points="0 0,1 0, 1 0.77, 0 1"/>
-                     </clipPath>
-                 </defs>
-             </svg>
+    <!-- Clipping with Svg Path
 
-             End of Comment -->
+        <svg width="0" height="0">
+             <defs>
+                 <clipPath id="clip-shape" clipPathUnits="objectBoundingBox">
+                     <polygon points="0 0,1 0, 1 0.77, 0 1"/>
+                 </clipPath>
+             </defs>
+         </svg>
+
+         End of Comment -->
 
         <header class="header">
 
@@ -61,7 +63,7 @@
                         <h3 class="heading-tertiary u-margin-bottom-small">Live adventures like you never have
                             before </h3>
                         <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at eaque
-                            eligendi in ipsa magni nostrum numquam sit! Est, nesciunt?</p>
+                            eligendi in ipsa magni nostrum numquam sit! Est, nesciun!</p>
 
                         <a href="#" class="btn-text">Learn more &rarr; </a>
 
@@ -231,6 +233,13 @@
             </section>
 
             <section class="section-stories">
+                <div class="bg-video">
+                    <video class="bg-video__content" autoplay muted loop>
+                        <source src="img/video.mp4" type="video/mp4">
+                        <source src="img/video.webm" type="video/webm">
+                        Your browser is not supported!
+                    </video>
+                </div>
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Exciting tours for adventurous people
@@ -240,6 +249,7 @@
                     <div class="story">
                         <figure class="story__shape">
                             <img src="img/nat-8.jpg" alt="first story" class="story__img">
+                            <figcaption class="story__caption"> Mary Smith</figcaption>
                         </figure>
                         <div class="story__text">
                             <h3 class="heading-tertiary u-margin-bottom-small">
@@ -248,6 +258,52 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at debitis, deleniti
                                 dicta, dolorem, eaque explicabo facere harum modi natus nisi quo saepe. Corporis dicta
                                 explicabo iste nostrum quidem! Blanditiis id non ullam voluptate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="img/nat-9.jpg" alt="first story" class="story__img">
+                            <figcaption class="story__caption"> Anar Sultani</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                I had the best day with my friends
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at debitis, deleniti
+                                dicta, dolorem, eaque explicabo facere harum modi natus nisi quo saepe. Corporis dicta
+                                explicabo iste nostrum quidem! Blanditiis id non ullam voluptate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="u-center-text u-margin-bottom-big">
+                    <a href="" class="btn btn-text">Read all stories &rarr; </a>
+                </div>
+            </section>
+
+            <section class="section-book">
+                <div class="row">
+
+                    <div class="book">
+                        <div class="book__form">
+                            <form action="#" class="form">
+                                <div class="u-center-text u-margin-bottom-big">
+                                    <h2 class="heading-secondary">
+                                        Start booking now!
+                                    </h2>
+                                </div>
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+                                    <label for="name" class="form__label">Full Name</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="Email Address" id="email"
+                                           required>
+                                    <label for="email" class="form__label">Email Address</label>
+                                </div>
+
+                            </form>
                         </div>
                     </div>
                 </div>
