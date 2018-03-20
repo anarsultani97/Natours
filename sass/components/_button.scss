@@ -1,10 +1,11 @@
 
 .btn {
+  &,
   &:link,
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 4rem;
     display: inline-block;
     margin-top: 3.5rem;
     border-radius: 2.5em;
@@ -12,6 +13,10 @@
     position: relative;
     z-index: 99;
     font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+
+    //Change for form <button> element
   }
 
   &:hover {
@@ -23,7 +28,8 @@
     }
   }
 
-  &:active {
+  &:active, &:focus {
+    outline: none;
     transform: translateY(-.1rem);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
   }
@@ -78,6 +84,7 @@
     letter-spacing: 1.1px;
     border-radius: 10rem;
     transition: all .2s ease-in-out;
+
   }
   &:hover {
     background-color: $color-primary;
