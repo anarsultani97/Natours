@@ -4,5 +4,77 @@
     display: table;
     clear: both;
   }
+}
+
+@mixin absCenter() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*
+
+
+Responsive Layout  - MEdia queries
+
+
+// Media Query Manager
+
+
+0 - 600px : Phone
+600 - 900px : Tablet portrait
+900 - 1200: Tablet landscape
+
+[ 1200  - 1800 ] is where our normal styles will apply
+
+1800px+ : Big screen ;
+
+ */
+
+/*
+
+@mixin respond-phone{
+  @media (max-width: 600px){
+  @content
+  };
+}
+
+*/
+
+/*
+
+$breakpoint argument choices :
+-phone
+-tab-port
+-tab-land
+-big-desk
+
+ */
+@mixin respond($breakpoint) {
+  @if $breakpoint ==  phone {
+    @media (max-width: 37.5em) {
+      @content
+    }
+  ; //600px
+  }
+  @if $breakpoint ==  tab-port {
+    @media (max-width: 56.25em) {
+      @content
+    }
+  ; //900px
+  }
+  @if $breakpoint ==  tab-land {
+    @media (max-width: 75em) {
+      @content
+    }
+  ; //1200px
+  }
+  @if $breakpoint ==  big-desk {
+    @media (min-width: 112.5em) {
+      @content
+    }
+  ; // 1800px
+  }
 
 }
